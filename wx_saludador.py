@@ -17,7 +17,7 @@ def btnSaludarCallBack(e):
 btnSaludar = wx.Button(frame, label='&Saludar')
 btnSaludar.Bind(wx.EVT_BUTTON, btnSaludarCallBack)
 
-lblAQuien = wx.StaticText(frame, label="¿A quién saludamos?")
+lblAQuien = wx.StaticText(frame, label=u"¿A quién saludamos?")
 txtNombre = wx.TextCtrl(frame)
 chkSonrisa = wx.CheckBox(frame, label='Agregar :)')
 
